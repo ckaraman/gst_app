@@ -10,6 +10,19 @@ class GamePage extends StatefulWidget {
 class _GamePageState extends State<GamePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        Stack(
+          children: [
+            Image.asset('assets/foto1.jpeg',
+            alignment: Alignment.center,
+            ),
+            
+            
+          ],
+
+        )
+      ],
+    );
   }
 }
