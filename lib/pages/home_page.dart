@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
                   labelColor: Colors.black,
                   tabs: [
                     Tab(text: ' Game Loc.'),
-                    Tab(text: 'Sports loc.'),
+                    Tab(text: 'Sports Loc.'),
                     Tab(text: 'Travel Loc.'),
                   ],
                 ),

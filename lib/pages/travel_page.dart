@@ -18,7 +18,7 @@ class _TravelPageState extends State<TravelPage> {
             width: 400,
             child: Image.asset(
               'assets/foto2.jpeg',
-              fit: BoxFit.fill,
+              fit: BoxFit.cover,
             ),
           ),
           Positioned(left: 70, bottom: 110, child: customTravelWidget()),

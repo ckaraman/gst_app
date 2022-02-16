@@ -18,7 +18,7 @@ class _SportPageState extends State<SportPage> {
             width: 400,
             child: Image.asset(
               'assets/foto2.jpeg',
-              fit: BoxFit.fill,
+              fit: BoxFit.cover,
             ),
           ),
           Positioned(left: 50, bottom: 160, child: customSportWidget()),
